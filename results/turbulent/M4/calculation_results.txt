@@ -1,0 +1,31 @@
+TURBULENT / M4 - CALCULATION RESULTS
+
+Iterations: 486
+Solver status: Converged; all six final scaled residuals below 1e-6
+Final residual - continuity: 9.78778986e-07
+Final residual - x-velocity: 6.69837177e-12
+Final residual - y-velocity: 2.77324618e-11
+Final residual - z-velocity: 3.64094294e-10
+Final residual - k: 1.53837182e-09
+Final residual - omega: 7.56920129e-10
+
+Mean inlet static pressure (Pa; area-weighted): 1470.67825980
+Mean outlet static pressure (Pa; area-weighted): 0.00000000
+Full-pipe pressure drop (Pa): 1470.67825980
+Mean outlet axial speed (m/s; Q/A): 102.71100000
+Inlet mass flow rate (kg/s): 6.600375542907e-04
+Outlet mass flow rate (kg/s): -6.600375542629e-04
+Net mass flow rate (kg/s): 2.77640324e-14
+Mass imbalance (%): 4.20643223e-09
+
+Fully developed interval (Z start/end, m; approximate, upstream to downstream): 0.30 -> 0.10
+Interval pressure drop (Pa; area-weighted cross-section means): 283.37165644
+Development checks: maximum axial profile change/Uin = 0.00130%; pressure-gradient variation = 0.00146% (both below 1%).
+
+Wall y+ (all wall faces; Fluent Wall Yplus, SV_WALL_YPLUS_UTAU):
+Minimum: 4.35130029
+Area-weighted mean: 12.15713204
+Maximum: 21.04590781
+
+Mass flow signs: inlet positive, outlet negative.
+Image QA: Nine images checked; plotted ranges agree with saved data, wall y+ is correct, and contour legends are unobstructed.

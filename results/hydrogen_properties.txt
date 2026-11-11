@@ -1,0 +1,10 @@
+SHARED MATERIAL PROPERTIES - ALL LAMINAR AND TURBULENT MESHES
+
+Material: hydrogen (h2)
+Density: 0.08189 kg/m^3
+Dynamic viscosity: 8.411e-6 Pa.s
+Property model: Constant density and constant dynamic viscosity
+Source: Fluent material database
+Reference temperature: Not yet verified
+
+Use these same properties for all meshes compared at the same flow condition.

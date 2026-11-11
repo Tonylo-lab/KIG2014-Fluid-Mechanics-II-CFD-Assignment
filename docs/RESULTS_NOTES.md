@@ -1,0 +1,12 @@
+# Reading the results correctly
+
+- **Direction:** flow goes from Z = 1 to Z = 0. Increasing pressure with increasing plotted Z is expected for this coordinate convention.
+- **Pressure averaging:** the inlet/outlet and internal-plane pressure values in the text records are area weighted. Centerline plots are line samples and need not have identical endpoint values to boundary-area averages.
+- **Theory comparison:** compare the recorded developed-flow pressure drop with theory over the same 0.20 m interval, Z = 0.30 to 0.10 m. Full-pipe pressure drop includes entrance effects. Approximate development checks in the records compare axial velocity profiles and pressure gradients; profile velocities are estimated from adjacent cell values on the comparison planes.
+- **Mass flow signs:** inlet is positive and outlet is negative in the stored report convention. Mass imbalance is the absolute signed sum divided by inlet mass flow, expressed as a percentage.
+- **Exit speed:** mean outlet axial speed is calculated as Q/A, using the actual meshed outlet area. Slight changes in inlet mass flow with refinement at fixed inlet speed also reflect the discretised circular boundary area.
+- **Residual criteria:** turbulent M1/M2 were saved with k/omega stopping criteria of 1e-3, while their final residuals nevertheless reached below 1e-6. From turbulent M3 onward all six stopping criteria are 1e-6. Every saved run has all final monitored residuals below 1e-6.
+- **M5 refinement:** near-wall inflation was added and axial divisions changed from 600 in M4 to 400 in M5 to respect the active cell limit. Differences between these runs cannot be attributed solely to wall-normal refinement.
+- **Quality measures:** minimum orthogonal quality and maximum aspect ratio were reported in Fluent. Skewness values marked computed are reconstructed angle-based measures, not separately reported Fluent cell-skewness outputs. The M5 record explicitly identifies its maximum normalised equiangular face-angle measure. Retain these method labels in any comparison.
+- **Fluid properties:** the model uses constant hydrogen properties. The reference temperature of the database property pair was not independently verified; the recorded values should not be treated as a thermodynamic property correlation.
+- **Scope:** exported figures and per-run numerical records are available. A formal GCI calculation, numeric centerline-profile export, theoretical-error table and final group report have not been added to this public package.

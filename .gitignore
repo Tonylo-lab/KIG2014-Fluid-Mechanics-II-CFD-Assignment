@@ -1,0 +1,13 @@
+# Full solver files are distributed as Release assets.
+*.cas.h5
+*.dat.h5
+*.msh
+*.zip
+*.wbpj
+*_files/
+.flwb_report_files/
+*.lock
+*.log
+__pycache__/
+Thumbs.db
+.DS_Store

@@ -1,0 +1,22 @@
+LAMINAR / M4 - CALCULATION RESULTS
+
+Iterations: 455
+Solver status: Converged (all monitored scaled residuals below 1e-6)
+Final residual - continuity: 9.91550603e-07
+Final residual - x-velocity: 6.10736120e-11
+Final residual - y-velocity: 1.95380868e-10
+Final residual - z-velocity: 6.05710480e-09
+
+Mean inlet static pressure (Pa; area-weighted): 32.92958317
+Mean outlet static pressure (Pa; area-weighted): 0.00000000
+Full-pipe pressure drop (Pa): 32.92958317
+Mean outlet axial speed (m/s; Q/A): 10.27100000
+Inlet mass flow rate (kg/s): 6.600311281284e-05
+Outlet mass flow rate (kg/s): -6.600311281375e-05
+Net mass flow rate (kg/s): -9.09211942e-16
+Mass imbalance (%): 1.37752888e-09
+Fully developed interval (Z start/end, m; approximate, upstream to downstream): 0.30 -> 0.10
+Fully developed interval pressure drop (Pa; area-weighted cross-section means): 5.53922288
+
+Mass flow signs: inlet positive, outlet negative.
+Fully developed checks: maximum axial profile change/Uin = 0.584%; pressure-gradient variation = 0.245% (both below 1%).

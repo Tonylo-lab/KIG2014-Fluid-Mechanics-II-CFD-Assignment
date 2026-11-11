@@ -1,0 +1,33 @@
+Case and mesh: laminar / M1
+
+Geometry: Straight circular pipe, internal fluid domain
+Internal diameter: 10 mm
+Length: 1000 mm
+Pipe axis: Z; Z range: 0 to 1 m
+Material: hydrogen (h2)
+Inlet: Uniform velocity inlet
+Outlet: Pressure outlet, gauge pressure = 0 Pa
+Wall: Stationary, no slip
+
+Reynolds number, Re: 1000
+Mean inlet velocity: 10.271 m/s
+Flow model: Laminar
+
+MESH
+Method: Sweep
+Cross-sectional element size: 1 mm
+Axial divisions: 200
+Cells/Elements: 15400
+Nodes: 18492
+Maximum Skewness: 0.43907
+Minimum Orthogonal Quality: 0.89588
+Maximum Aspect Ratio: 7.75450 (Fluent)
+
+SOLVER SETTINGS
+Solver type: Pressure-based
+Time formulation (Steady/Transient): Steady
+Gravity: Off; X = Y = Z = 0 m/s^2
+Pressure-velocity coupling: SIMPLE
+Pressure discretization: Second Order
+Momentum discretization: Second Order Upwind
+Residual convergence criteria (record each equation): Absolute scaled residuals: continuity, x/y/z velocity = 1e-6

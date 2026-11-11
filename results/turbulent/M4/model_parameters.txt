@@ -1,0 +1,36 @@
+Case and mesh: turbulent / M4
+
+Geometry: Straight circular pipe, internal fluid domain
+Internal diameter: 10 mm
+Length: 1000 mm
+Pipe axis: Z; Z range: 0 to 1 m
+Material: hydrogen (h2)
+Inlet: Uniform velocity inlet
+Outlet: Pressure outlet, gauge pressure = 0 Pa
+Wall: Stationary, no slip
+
+Reynolds number, Re: 10000 (rho * Uin * D / mu = 10000.0045)
+Mean inlet velocity: 102.711 m/s; normal to inlet, toward negative Z
+Specific RANS model: SST k-omega (2 equations)
+Inlet turbulence: Intensity and Hydraulic Diameter; I = 5.06%, Dh = 0.01 m
+Outlet backflow turbulence: I = 5.06%, Dh = 0.01 m
+
+MESH
+Method: Sweep
+Cross-sectional element size: 0.35 mm
+Axial divisions: 600
+Cells/Elements: 343200
+Nodes: 370817
+Maximum Skewness: 0.656657 (computed normalized equiangular skewness from mesh geometry)
+Minimum Orthogonal Quality: 0.681019 (Fluent)
+Maximum Aspect Ratio: 12.5167 (Fluent)
+
+SOLVER SETTINGS
+Solver type: Pressure-based
+Time formulation (Steady/Transient): Steady
+Gravity: Off
+Pressure-velocity coupling: SIMPLE
+Pressure discretization: Second Order
+Momentum discretization: Second Order Upwind
+Turbulent kinetic energy and specific dissipation rate: Second Order Upwind
+Residual convergence criteria (record each equation): Absolute scaled residuals: continuity, x/y/z velocity, k and omega = 1e-6
