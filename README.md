@@ -11,7 +11,7 @@ This is a student coursework record, with a mesh study of **four laminar meshes 
 1. Read the [reproduction guide](docs/REPRODUCE.md) for the geometry, boundary conditions and meshing workflow.
 2. Browse [laminar results](results/laminar) or [turbulent results](results/turbulent). Every mesh has its own parameter file, numerical results and exported figures.
 3. Read the [results notes](docs/RESULTS_NOTES.md) before comparing pressure drops or writing about mesh independence.
-4. For full Fluent restart files, see [solver file distribution](docs/SOLVER_FILES.md).
+4. [Download the full Fluent case/data/mesh archive](https://github.com/Tonylo-lab/KIG2014-Fluid-Mechanics-II-CFD-Assignment/releases/download/v1.0.0/KIG2014_CFD_Fluent_Files.zip) (340.45 MiB; 27 files across all nine runs). See the [loading instructions and checksum](docs/SOLVER_FILES.md), or browse [release v1.0.0](https://github.com/Tonylo-lab/KIG2014-Fluid-Mechanics-II-CFD-Assignment/releases/tag/v1.0.0).
 
 ## Case setup
 
