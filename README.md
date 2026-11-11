@@ -4,8 +4,6 @@ An ANSYS Fluent coursework project for **KIG2014: Fluid Mechanics II, Universiti
 
 I am sharing my modelling workflow, mesh settings and simulation results to help future students getting started with a similar CFD assignment. I hope this makes the first encounter with Workbench and Fluent a little less confusing!
 
-**中文简介：** 这是马来亚大学 KIG2014《流体力学二》的 CFD 作业记录。我把建模过程、网格参数和计算结果整理在这里，希望以后做类似作业的学弟学妹能少走一些弯路。先理解方法，再按照自己题目的要求复现和检查结果。
-
 This is a student coursework record, with a mesh study of **four laminar meshes (M1–M4)** and **five turbulent meshes (M1–M5)**. It is not an official university solution or marking guide.
 
 ## Start here
