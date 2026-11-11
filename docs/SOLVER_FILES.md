@@ -2,7 +2,15 @@
 
 The lightweight repository contains geometry, settings, numerical records, monitor histories and figures. Full restart and mesh files are packaged separately as `KIG2014_CFD_Fluent_Files.zip` for a GitHub Release.
 
-**Publication status:** the archive is prepared locally; no online download URL has been assigned yet. Once it has been uploaded, use the repository's Releases page to obtain it.
+**Published:** [v1.0.0](https://github.com/Tonylo-lab/KIG2014-Fluid-Mechanics-II-CFD-Assignment/releases/tag/v1.0.0).
+
+[Download KIG2014_CFD_Fluent_Files.zip](https://github.com/Tonylo-lab/KIG2014-Fluid-Mechanics-II-CFD-Assignment/releases/download/v1.0.0/KIG2014_CFD_Fluent_Files.zip) — 356,982,584 bytes (340.45 MiB), containing 27 files across nine runs.
+
+SHA-256:
+
+```text
+3ea61e377872d4089a75e9687cc44fec0862db0675369fef3df261aa71d077f6
+```
 
 The archive contains the nine corresponding `.cas.h5`, `.dat.h5` and `.msh` sets. Extract it alongside the repository so its files merge into `results/laminar/M1` through `M4` and `results/turbulent/M1` through `M5`. Read the case and matching data file for the mesh you want to inspect.
 
